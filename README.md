@@ -1,16 +1,15 @@
 # Nextdoor
 ***
 ## To Do  
-1. Accueil
+[X] Accueil
   - Attendre l'image de fond des GEA
- 
-2. Rechercher (Joris)
- 
-3. Profil Publique
 
-4. Profil Privé
+[] Rechercher (Joris)
 
-5. Annonces
+[] Profil Publique
 
-6. CSS - à faire en dernier une fois que le HTML est terminé
-  
+[] Profil Privé
+
+[] Annonces
+
+[] CSS - à faire en dernier une fois que le HTML est terminé
