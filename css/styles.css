@@ -1,0 +1,44 @@
+/* Bleu nextdoor */
+.blue {
+  background-color: #1A4A80 !important;
+}
+
+.blue-text {
+  color: #1A4A80 !important;
+}
+
+.blue-dark {
+  background-color: #193C63 !important;
+}
+
+.blue-dark-text {
+  color: #193C63 !important;
+}
+
+
+/* Parallax */
+.parallax-container {
+  height: 500px;
+}
+.parallax-container .container,
+.parallax-container .container .row {
+  height: 100%;
+}
+
+
+/* Footer Collé */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+
+/* Footer */
+footer.page-footer .footer-copyright {
+  background-color: rgba(30,30,30,0.2) !important;
+}
