@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
-  $(".button-collapse").sideNav();
-  $('.parallax').parallax();
+  $(".button-collapse").sideNav(); // Menu mobile
+  $('.modal').modal(); // Modal connexion
+  $('.parallax').parallax(); // Parallax
 });

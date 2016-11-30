@@ -24,13 +24,13 @@
           <li><a href="index.html">Accueil</a></li>
           <li><a href="index.html">Annonces</a></li>
           <li><a href="index.html">S'incrire</a></li>
-          <li><a href="index.html" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
+          <li><a href="#connexion" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="index.html">Annonces</a></li>
           <li><a href="index.html">S'incrire</a></li>
-          <li><a href="index.html" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
+          <li><a href="#connexion" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
         </ul>
       </div>
     </nav>
@@ -41,7 +41,7 @@
       <div class="container">
         <div class="row valign-wrapper">
           <div class="col m8 offset-m2">
-            <h2 class="white-text center">Nextdoor<h2>
+            <h2 class="white-text center">Nextdoor</h2>
             <h5 class="white-text center">Echange de services entre particuliers</h5>
             <div class="input-field col m4 s12">
               <input id="last_name" type="text" class="validate">
@@ -128,6 +128,24 @@
     </div>
   </footer>
 
+
+  <!-- Modal connexion -->
+  <div id="connexion" class="modal">
+    <div class="modal-content">
+      <h4>Connexion</h4>
+      <div class="input-field">
+        <input id="mail" type="email" class="validate">
+        <label for="mail">Adresse email</label>
+      </div>
+      <div class="input-field">
+        <input id="mdp" type="password" class="validate">
+        <label for="mdp">Mot de passe</label>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat blue-text">Connexion</a>
+    </div>
+  </div>
 
   <!-- JQuery & Materialize JS -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
