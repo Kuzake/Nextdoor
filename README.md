@@ -8,7 +8,7 @@
 
 - [ ] Profil Publique
 
-- [ ] Profil Privé
+- [ ] Profil Privé (Joris)
 
 - [ ] Annonces
 
