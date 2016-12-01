@@ -24,6 +24,29 @@
   height: 100%;
 }
 
+/* Accueil */
+
+/* label color */
+.accueil .input-field label {
+ color: #fff;
+}
+/* label focus color */
+.accueil .input-field input[type=text]:focus + label {
+ color: #fff;
+}
+.accueil .input-field input[type=text],
+.accueil .input-field input[type=text]:focus,
+.accueil .input-field input[type=text].valid,
+.accueil .input-field input[type=text].invalid {
+ border-bottom: 1px solid #fff;
+ box-shadow: 0 1px 0 0 #fff;
+}
+/* icon prefix focus color */
+.accueil .input-field .prefix.active {
+ color: #fff;
+}
+
+
 
 /* Footer Collé */
 body {
