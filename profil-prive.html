@@ -73,119 +73,134 @@
             <div class="row">
               <div class="col s12">
                 <ul class="tabs">
-                  <li class="tab col s3"><a class="active" href="#profil">Profil</a></li>
-                  <li class="tab col s3"><a href="#competences">Compétences</a></li>
-                  <li class="tab col s3"><a href="#annonces">Annonces</a></li>
-                  <li class="tab col s3"><a href="#contact">Contact</a></li>
+                  <li class="tab col s3"><a class="active" href="#profil">Mon profil</a></li>
+                  <li class="tab col s3"><a href="#competences">Mes Compétences</a></li>
+                  <li class="tab col s3"><a href="#annonces">Mes Annonces</a></li>
+                  <li class="tab col s3"><a href="#contact">Mes Messages</a></li>
                 </ul>
               </div>
-              <div id="profil" class="col s12">
-                <dl>
-                  <dt>Prénom</dt>
-                  <dd>Bibi</dd>
-                  <dt>Prénom</dt>
-                  <dd>Bibi</dd>
-                  <dt>Prénom</dt>
-                  <dd>Bibi</dd>
-                  <dt>Prénom</dt>
-                  <dd>Bibi</dd>
-                  <dt>Prénom</dt>
-                  <dd>Bibi</dd>
-                  <dt>Prénom</dt>
-                  <dd>Bibi</dd>
-                </dl>
+              <div id="profil" class="col m12 s12">
+                <div class="row">
+                  <div class="input-field col m4 offset-m4 s12">
+                    <input value="Nextdoor" id="nutilisateur" type="text" class="validate" disabled>
+                    <label class="active" for="nutilisateur">Nom d'utilisateur</label>
+                  </div>
+                  <div class="input-field col m4 offset-m4 s12">
+                    <input value="Joe" id="prenom" type="text" class="validate">
+                    <label class="active" for="prenom">Prénom</label>
+                  </div>
+                  <div class="input-field col m4 offset-m4 s12">
+                    <input value="45" id="age" type="text" class="validate">
+                    <label class="active" for="age">Age</label>
+                  </div>
+                  <div class="input-field col m4 offset-m4 s12">
+                    <input value="13 Rue Carnot" id="rue" type="text" class="validate">
+                    <label class="active" for="rue">Rue</label>
+                  </div>
+                  <div class="input-field col m4 offset-m4 s12">
+                    <input value="Gap" id="ville" type="text" class="validate">
+                    <label class="active" for="ville">Ville</label>
+                  </div>
+                  <div class="divider col m4 offset-m4 s12"></div>
+                  <h6 class="col m4 offset-m4 s12">Modifier le mot de passe</h6>
+                  <div class="input-field col m4 offset-m4 s12">
+                    <input id="mdp" type="password" class="validate">
+                    <label class="active" for="mdp">Mot de passe</label>
+                  </div>
+                  <div class="input-field col m4 offset-m4 s12">
+                    <input id="mdp2" type="password" class="validate">
+                    <label class="active" for="mdp2">Répétez le mot de passe</label>
+                  </div>
+                  <div class="col m4 offset-m4">
+                    <a class="waves-effect waves-light btn">Enregistrer</a>
+                  </div>
+                </div>
               </div>
-              <div id="competences" class="col s12">Test 2</div>
+              <div id="competences" class="col s12">
+                <form action="#">
+                  <div class="file-field input-field">
+                    <div class="btn">
+                      <span>Ajouter mon CV</span>
+                      <input type="file">
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path validate" type="text">
+                    </div>
+                  </div>
+                </form>
+              </div>
               <div id="annonces" class="col s12">
                 <div class="row">
                   <div class="col s12 m6">
-                    <div class="card-panel white">
-                      <div>
-                        <h6 class="left">Titre annonce</h6>
+                    <div class="card-panel">
+                      <div class="row">
+                        <div class="col m8">
+                          <h6>Titre annonce</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur..
+                          </p>
+                          <span>Ajouté le 13/05/16</span>
+                        </div>
+                        <div class="col m2 center">
+                          <span class="new badge blue" data-badge-caption="vues">4</span>
+                        </div>
+                        <div class="col m2">
+                          <div class="row">
+                            <a href="" class="col m12 center"><i class="material-icons">edit</i></a>
+                            <a href="" class="col m12 center"><i class="material-icons">delete</i></a>
+                          </div>
+                        </div>
                       </div>
-                      <p>Ajoutée le 13/13/16</p>
-                      <dl>
-                        <dt>Nb de vues</dt>
-                        <dd>50</dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <div class="col s12 m6">
-                    <div class="card-panel white">
-                      <div>
-                        <h6 class="left">Titre annonce</h6>
-                      </div>
-                      <p>Ajoutée le 13/13/16</p>
-                      <dl>
-                        <dt>Nb de vues</dt>
-                        <dd>50</dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <div class="col s12 m6">
-                    <div class="card-panel white">
-                      <div>
-                        <h6 class="left">Titre annonce</h6>
-                      </div>
-                      <p>Ajoutée le 13/13/16</p>
-                      <dl>
-                        <dt>Nb de vues</dt>
-                        <dd>50</dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <div class="col s12 m6">
-                    <div class="card-panel white">
-                      <div>
-                        <h6 class="left">Titre annonce</h6>
-                      </div>
-                      <p>Ajoutée le 13/13/16</p>
-                      <dl>
-                        <dt>Nb de vues</dt>
-                        <dd>50</dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <div class="col s12 m6">
-                    <div class="card-panel white">
-                      <div>
-                        <h6 class="left">Titre annonce</h6>
-                      </div>
-                      <p>Ajoutée le 13/13/16</p>
-                      <dl>
-                        <dt>Nb de vues</dt>
-                        <dd>50</dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <div class="col s12 m6">
-                    <div class="card-panel white">
-                      <div>
-                        <h6 class="left">Titre annonce</h6>
-                      </div>
-                      <p>Ajoutée le 13/13/16</p>
-                      <dl>
-                        <dt>Nb de vues</dt>
-                        <dd>50</dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <div class="col s12 m6">
-                    <div class="card-panel white">
-                      <div>
-                        <h6 class="left">Titre annonce</h6>
-                      </div>
-                      <p>Ajoutée le 13/13/16</p>
-                      <dl>
-                        <dt>Nb de vues</dt>
-                        <dd>50</dd>
-                      </dl>
                     </div>
                   </div>
                 </div>
               </div>
               <div id="contact" class="col s12">
-                
+                <div class="row">
+                  <div class="col m3">
+                    <ul class="collection with-header">
+                      <li class="collection-header"><h5>Conversations</h5></li>
+                      <li class="collection-item">Alvin</li>
+                      <li class="collection-item">Alvin</li>
+                      <li class="collection-item">Alvin</li>
+                      <li class="collection-item">Alvin</li>
+                    </ul>
+                  </div>
+                  <div class="col m9">
+                    <ul class="collection with-header">
+                      <li class="collection-header"><h5>Conversations</h5></li>
+                      <li class="collection-item">
+                        <div class="card-panel blue lighten-4">
+                          I am a very simple card. I am good at containing small bits of information.
+                          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                          <small class="right">
+                            13/05/15 - 16h30 <i class="material-icons tiny">done</i> Vu
+                          </small>
+                        </div>
+                        <div class="card-panel">
+                          I am a very simple card. I am good at containing small bits of information.
+                          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                          <small class="right">
+                            13/05/15 - 16h30 <i class="material-icons tiny">done</i> Vu
+                          </small>
+                        </div>
+                      </li>
+                      <li class="collection-item">
+                        <div class="row">
+                          <div class="col m10">
+                            <div class="input-field col s12">
+                              <textarea id="msg" class="materialize-textarea"></textarea>
+                              <label for="msg">Message...</label>
+                            </div>
+                          </div>
+                          <div class="col m2">
+                              <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">send</i></a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -194,7 +209,7 @@
     </div>
   </main>
 
-  <!-- Footer -->
+  <!-- Footer -->/
   <footer class="page-footer blue">
     <div class="container">
       <div class="row">
