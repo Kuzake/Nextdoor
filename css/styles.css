@@ -22,6 +22,7 @@
 /* Parallax */
 .parallax-container {
   height: 600px;
+  background: rgba(0,0,0,0.3);
 }
 
 
@@ -74,15 +75,18 @@
 }
 
 .accueil {
-  padding-top: 5% !important;
+  padding-top: 2.5% !important;
   padding-bottom: 10% !important;
+}
+.accueil img {
+  max-width: 180px;
 }
 .accueil h2 {
   font-variant: small-caps;
 }
 
 .accueil h5 {
-  padding: 3% 0 4% 0;
+  padding: 0 0 4% 0;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
