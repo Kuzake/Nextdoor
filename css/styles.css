@@ -23,10 +23,6 @@
 .parallax-container {
   height: 600px;
 }
-.parallax-container .container,
-.parallax-container .container .row {
-  height: 100%;
-}
 
 /* Accueil */
 
@@ -38,6 +34,15 @@
 .accueil .input-field input[type=text]:focus + label {
  color: #fff;
 }
+
+.accueil .input-field label {
+  font-size: 1.3rem;
+}
+
+.accueil .input-field label.active {
+  font-size: 1rem;
+}
+
 .accueil .input-field input[type=text],
 .accueil .input-field input[type=text]:focus,
 .accueil .input-field input[type=text].valid,
@@ -50,7 +55,29 @@
 .accueil .input-field .prefix.active {
  color: #fff;
 }
+.btn-accueil-menu {
+  text-transform: capitalize;
+  padding: 0 1rem 0 1rem;
+}
 
+.btn-accueil-menu:hover {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  color: #fff !important;
+}
+
+.accueil {
+  padding-top: 5% !important;
+  padding-bottom: 10% !important;
+}
+
+.accueil h5 {
+  padding: 3% 0 4% 0;
+}
+
+.info-accueil {
+  padding-top: 3%;
+}
 
 
 /* Footer Collé */
