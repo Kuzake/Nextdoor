@@ -24,6 +24,13 @@
   height: 600px;
 }
 
+
+/* Menu */
+.brand-logo img {
+  width: 80px;
+  padding-top: 5%;
+}
+
 /* Accueil */
 
 /* label color */
@@ -70,15 +77,41 @@
   padding-top: 5% !important;
   padding-bottom: 10% !important;
 }
+.accueil h2 {
+  font-variant: small-caps;
+}
 
 .accueil h5 {
   padding: 3% 0 4% 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .info-accueil {
   padding-top: 3%;
 }
 
+
+/* Rechercher*/
+.rechercher-card .card-content {
+  padding: 5px 20px 20px 20px !important;
+}
+.rechercher-card .card-title {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #1A4A80;
+  color: white;
+}
+
+.rechercher-annonce .card-title {
+  font-size: 18px;
+}
+.rechercher-annonce .card-title small {
+  font-size: 65%;
+}
+
+.rechercher-annonce p span {
+  font-size: 25px;
+}
 
 /* Footer Collé */
 body {
