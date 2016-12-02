@@ -96,7 +96,10 @@
 
 
 /* Rechercher*/
-.rechercher-container {height: 800px;}
+.rechercher-container {
+  height: 800px;
+  overflow-y: scroll;
+}
 .rechercher-card .card-content {
   padding: 5px 20px 20px 20px !important;
 }
@@ -107,9 +110,6 @@
   color: white;
 }
 
-.rechercher-annonce-container {
-  overflow-y: scroll;
-}
 .rechercher-annonce .card-title {
   font-size: 18px;
 }
