@@ -10,7 +10,7 @@
 
 - [ ] Profil Privé (Joris)
 
-- [ ] Annonces
+- [x] Annonces (Rémi)
 
 - [ ] Administration
 
