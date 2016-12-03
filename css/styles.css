@@ -132,7 +132,9 @@
    display: inline-block;
 }
 
-
+li.tab a {
+  color: #1A4A80;
+}
 
 /* Footer Collé */
 body {
