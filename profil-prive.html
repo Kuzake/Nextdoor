@@ -13,7 +13,7 @@
   <!-- Nextdoor Css -->
   <link rel="stylesheet" href="css/styles.css">
 
-  <title>Accueil - NextDoor</title>
+  <title>Profil - NextDoor</title>
 </head>
 <body>
   <header>
@@ -24,14 +24,28 @@
         <ul class="right hide-on-med-and-down">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="index.html">Proposer un service</a></li>
-          <li><a href="index.html">S'incrire</a></li>
-          <li><a href="index.html" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
+          <li>
+            <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-profil">Bibi<i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="menu-profil" class="dropdown-content">
+              <li><a href="profil-prive.html#profil">Mon profil</a></li>
+              <li><a href="profil-prive.html#competences">Mes compétences</a></li>
+              <li><a href="profil-prive.html#annonces">Mes annonces</a></li>
+              <li><a href="profil-prive.html#messagerie">Messagerie</a></li>
+            </ul>
+          </li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="index.html">Proposer un service</a></li>
-          <li><a href="index.html">S'incrire</a></li>
-          <li><a href="index.html" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
+          <li>
+            <a class="dropdown-button" href="#!" data-activates="menu-profil-m">Bibi<i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="menu-profil-m" class="dropdown-content">
+              <li><a href="profil-prive.html#profil">Mon profil</a></li>
+              <li><a href="profil-prive.html#competences">Mes compétences</a></li>
+              <li><a href="profil-prive.html#annonces">Mes annonces</a></li>
+              <li><a href="profil-prive.html#messagerie">Messagerie</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </nav>
@@ -51,15 +65,14 @@
               <div class="col s2">
                 <img src="img/profil.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
               </div>
-              <div class="col s10">
-                <h5>Bibi</h5>-
-                <span>Expert</span>
+              <div class="col s10 profil-p">
+                <h5>Bibi<small class="blue-grey-text text-lighten-2"> - Expert</small></h5>
                 <span class="black-text">
-                  <i class="material-icons">star</i>
-                  <i class="material-icons">star</i>
-                  <i class="material-icons">star</i>
-                  <i class="material-icons">star_half</i>
-                  <i class="material-icons">star_outline</i>
+                  <i class="material-icons yellow-text text-accent-4">star</i>
+                  <i class="material-icons yellow-text text-accent-4">star</i>
+                  <i class="material-icons yellow-text text-accent-4">star</i>
+                  <i class="material-icons yellow-text text-accent-4">star_half</i>
+                  <i class="material-icons yellow-text text-accent-4">star_outline</i>
                 </span>
               </div>
             </div>
@@ -77,7 +90,7 @@
                   <li class="tab col s3"><a class="active" href="#profil">Mon profil</a></li>
                   <li class="tab col s3"><a href="#competences">Mes Compétences</a></li>
                   <li class="tab col s3"><a href="#annonces">Mes Annonces</a></li>
-                  <li class="tab col s3"><a href="#contact">Mes Messages</a></li>
+                  <li class="tab col s3"><a href="#messagerie">Mes Messages</a></li>
                 </ul>
               </div>
               <div id="profil" class="col m12 s12">
@@ -156,7 +169,7 @@
                   </div>
                 </div>
               </div>
-              <div id="contact" class="col s12">
+              <div id="messagerie" class="col s12">
                 <div class="row">
                   <div class="col m3">
                     <ul class="collection with-header">

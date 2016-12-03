@@ -32,7 +32,7 @@
   padding-top: 5%;
 }
 
-/* Accueil */
+/******* Accueil ********/
 
 /* label color */
 .accueil .input-field label {
@@ -95,7 +95,7 @@
 }
 
 
-/* Rechercher*/
+/******** Rechercher ********/
 .rechercher-container {
   height: 800px;
   overflow-y: scroll;
@@ -124,6 +124,15 @@
 .rechercher-annonce .info-annonce {
   font-size: 13px;
 }
+
+
+
+/******** Profil Privé ***********/
+.profil-p h5+span {
+   display: inline-block;
+}
+
+
 
 /* Footer Collé */
 body {
