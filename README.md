@@ -2,7 +2,7 @@
 ***
 ## To Do  
 - [x] Accueil
-  - Attendre l'image de fond des GEA
+  - ~~Attendre l'image de fond des GEA~~
 
 - [ ] Rechercher (Joris)
 
