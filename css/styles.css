@@ -27,9 +27,11 @@
 
 
 /* Menu */
+nav .brand-logo {display: flex; align-items: center;}
 .brand-logo img {
   width: 80px;
-  padding-top: 5%;
+  padding-top: 2.5%;
+  height: 100%;
 }
 
 /******* Accueil ********/
