@@ -4,7 +4,7 @@
 - [x] Accueil
   - ~~Attendre l'image de fond des GEA~~
 
-- [ ] Rechercher (Joris)
+- [x] Rechercher (Joris)
 
 - [ ] Profil Publique
 

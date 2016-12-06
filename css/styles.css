@@ -137,6 +137,17 @@ nav .brand-logo {display: flex; align-items: center;}
 li.tab a {
   color: #1A4A80;
 }
+#profil h6 {
+  font-size: 1.2rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#annonces h6{
+  font-size: 1.2rem;
+}
+.indicator {
+  background-color: #1A4A80 !important;
+}
 
 /* Footer Collé */
 body {
