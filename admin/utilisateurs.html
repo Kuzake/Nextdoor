@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Materialize Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+
+  <!-- Nextdoor Css -->
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <title>Administration - NextDoor</title>
+</head>
+<body>
+  <header>
+    <nav class="blue">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo"><img src="img/logo.png" alt="Logo" class="hide-on-small-only">
+          NextDoor</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-annonces">Annonces</a>
+              <ul id="menu-annonces" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Toutes les annonces</a></li>
+                <li><a href="profil-prive.html#competences">Annonces signalées</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-utilisateurs">Utilisateurs</a>
+              <ul id="menu-utilisateurs" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Tous les utilisateurs</a></li>
+                <li><a href="profil-prive.html#competences">Utilisateurs signalés</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-commentaires">Commentaires</a>
+              <ul id="menu-commentaires" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Tous les commentaires</a></li>
+                <li><a href="profil-prive.html#competences">Commentaires signalés</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-profil">Administrateur<i class="material-icons right">arrow_drop_down</i></a>
+              <ul id="menu-profil" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Paramètres</a></li>
+                <li><a href="">Déconnexion</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="administration.html">Accueil</a></li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-annonces">Annonces</a>
+              <ul id="menu-annonces" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Toutes les annonces</a></li>
+                <li><a href="profil-prive.html#competences">Annonces signalées</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-utililsateurs">Utilisateurs</a>
+              <ul id="menu-utililsateurs" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Tous les utilisateurs</a></li>
+                <li><a href="profil-prive.html#competences">Utilisateurs signalés</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-commentaires">Commentaires</a>
+              <ul id="menu-commentaires" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Tous les commentaires</a></li>
+                <li><a href="profil-prive.html#competences">Commentaires signalés</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-profil">Administrateur<i class="material-icons right">arrow_drop_down</i></a>
+              <ul id="menu-profil" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Paramètres</a></li>
+                <li><a href="">Déconnexion</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- Contenu -->
+    <main class="container">
+      <table class="striped responsive-table">
+        <thead>
+          <tr>
+              <th data-field="id">Name</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer blue">
+      <div class="container">
+        <div class="row">
+          <div class="col m4 s12">
+            <h5 class="white-text">Infos pratiques</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Comment ça marche</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Confiance et sérénité</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Niveaux d'expérience</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Les avis</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Charte de bonne conduite</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Conseils prévention</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col m4 s12">
+            <h5 class="white-text">A propos</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Qui sommes-nous ?</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Presse</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Nous recrutons</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col m4 s12">
+          <h5 class="white-text">Mentions Légales</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Conditions générales</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Politique de Confidentialité</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Utilisation des cookies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2016 NextDoor
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- JQuery & Materialize JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
+    <script>
+    /* Annonces */
+    var annonces = document.getElementById('annonces').getContext('2d');
+    var annoncesChart = new Chart(annonces, {
+      type: 'line',
+      data: {
+        labels: ['Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+        datasets: [{
+          label: 'Nombre d\'annonces',
+          data: [142, 129, 112, 120, 180, 214, 298],
+          backgroundColor: "#1A4A80"
+        }]
+      }
+    });
+
+    // Services Effectués
+    var servicesEffectues = document.getElementById('servicesEffectues').getContext('2d');
+    var servicesE = new Chart(servicesEffectues, {
+      type: 'bar',
+      data: {
+        labels: ['Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+        datasets: [{
+          label: 'Nombre de services rendus',
+          data: [120, 62, 36, 93, 82, 15, 23],
+          backgroundColor: "#1A4A80"
+        }]
+      }
+    });
+
+    // Répartition Services
+    var repartitionService = document.getElementById('repartitionService').getContext('2d');
+    var servicesE = new Chart(repartitionService, {
+      type: 'polarArea',
+      data: {
+        labels: ['Baby Sitting', 'Jardinage', 'Bricolage', 'Peinture', 'Soutient colaire'],
+        datasets: [{
+          backgroundColor: [
+            "#2ecc71",
+            "#3498db",
+            "#f1c40f",
+            "#e74c3c",
+            "#34495e"
+          ],
+          data: [12, 19, 3, 17, 28],
+        }]
+      }
+    });
+
+    // Utilisateurs
+    var utilisateurs = document.getElementById('utilisateurs').getContext('2d');
+    var utilisateursChart = new Chart(utilisateurs, {
+      type: 'line',
+      data: {
+        labels: ['Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+        datasets: [{
+          label: 'Nombre d\'utilisateurs',
+          data: [202, 256, 260, 262, 290, 302, 309],
+          backgroundColor: "#1A4A80"
+        }]
+      }
+    });
+
+    // Signales
+    var signales = document.getElementById('signales').getContext('2d');
+    var signalesChart = new Chart(signales, {
+      type: 'line',
+      data: {
+        labels: ['Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+        datasets: [{
+          label: 'Commentaires signalés',
+          data: [30, 63, 84, 92, 123, 164, 174],
+          borderColor: "#e74c3c",
+          backgroundColor: "transparent"
+        },
+        {
+          label: 'Utilisateurs signalés',
+          data: [4, 13, 26, 33, 38, 46, 54],
+          borderColor: "#1A4A80",
+          backgroundColor: "transparent"
+        },
+        {
+          data: [16, 22, 28, 34, 58, 82, 94],
+          label: 'Annonces signalées',
+          backgroundColor: "transparent",
+          borderColor: "#2ecc71"
+
+        }]
+      }
+    });
+    </script>
+
+  </body>
+  </html>
