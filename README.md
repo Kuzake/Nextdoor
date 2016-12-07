@@ -8,10 +8,10 @@
 
 - [ ] Profil Publique
 
-- [ ] Profil Privé (Joris)
+- [x] Profil Privé (Joris)
 
 - [x] Annonces (Rémi)
 
-- [ ] Administration
+- [ ] Administration (Joris)
 
 - [ ] CSS - à faire en dernier une fois que le HTML est terminé
