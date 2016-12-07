@@ -14,4 +14,8 @@
 
 - [ ] Administration (Joris)
 
+- [ ] Inscription
+
+- [ ] Proposer un service
+
 - [ ] CSS - à faire en dernier une fois que le HTML est terminé
