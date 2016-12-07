@@ -5,5 +5,4 @@ $(document).ready(function(){
   $('.parallax').parallax(); // Parallax
   $('#msg').trigger('autoresize'); // Messages privés
   $(".dropdown-button").dropdown();
-  $('.collapsible').collapsible();
 });
