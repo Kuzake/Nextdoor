@@ -26,6 +26,13 @@
 }
 
 
+/* Modal connexion */
+@media (min-height: 768px) {
+  .modal {
+    max-width: 100% !important;
+    width: 25% !important;
+  }
+}
 
 /* Menu */
 nav .brand-logo {display: flex; align-items: center;}
