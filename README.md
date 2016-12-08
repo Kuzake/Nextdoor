@@ -12,7 +12,7 @@
 
 - [x] Annonces (Rémi)
 
-- [ ] Administration (Joris)
+- [X] Administration (Joris)
 
 - [X] Inscription (Sylvain)
 
