@@ -1,3 +1,13 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+
+
 /* Bleu nextdoor */
 .blue {
   background-color: #1A4A80 !important;
