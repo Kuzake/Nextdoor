@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Materialize Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Nextdoor Css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Déposer une annonce - NextDoor</title>
+</head>
+<body>
+  <header>
+    <nav class="blue">
+      <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo"><img src="img/logo.png" alt="Logo" class="hide-on-small-only">
+          NextDoor</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="deposer-annonce.html">Déposer une annonce</a></li>
+            <li>
+              <a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="menu-profil">Jack<i class="material-icons right">arrow_drop_down</i></a>
+              <ul id="menu-profil" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Mon profil</a></li>
+                <li><a href="profil-prive.html#competences">Mes compétences</a></li>
+                <li><a href="profil-prive.html#annonces">Mes annonces</a></li>
+                <li><a href="profil-prive.html#messagerie">Messagerie</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="deposer-annonce.html">Déposer une annonce</a></li>
+            <li>
+              <a class="dropdown-button" href="#!" data-activates="menu-profil-m">Jack<i class="material-icons right">arrow_drop_down</i></a>
+              <ul id="menu-profil-m" class="dropdown-content">
+                <li><a href="profil-prive.html#profil">Mon profil</a></li>
+                <li><a href="profil-prive.html#competences">Mes compétences</a></li>
+                <li><a href="profil-prive.html#annonces">Mes annonces</a></li>
+                <li><a href="profil-prive.html#messagerie">Messagerie</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contenu -->
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col m12 l12 ">
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class=" col m8 offset-m2">
+                    <span class="card-title blue-text"><h4>Déposer une annonce</h4></span>
+                    <div class="row">
+                      <div class="input-field col s12 m5">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Titre de l'annonce</label>
+                      </div>
+                      <div class="input-field col s12 m5">
+                        <select>
+                          <option value="" selected>Sélectionnez une catégorie</option>
+                          <option value="1">Espaces verts</option>
+                          <option value="2">Baby Sitting</option>
+                          <option value="3">Aide à domicile</option>
+                        </select>
+                        <label>Catégorie</label>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12 m2">
+                          <input id="text" type="text" class="validate">
+                          <label for="text">Prix</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="textarea1" class="materialize-textarea"></textarea>
+                          <label for="textarea1">Texte de l'annonce...</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="row">
+                    <div class="file-field input-field">
+                      <div class="btn">
+                        <span>Ajouter des photos</span>
+                        <input type="file" multiple>
+                      </div>
+                      <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text" placeholder="Ajouter des photos">
+                      </div>
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="input-field col m12 s12 center">
+                        <button class="btn waves-effect waves-light blue" type="submit" name="action">Envoyer</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer blue">
+      <div class="container">
+        <div class="row">
+          <div class="col m4 s12">
+            <h5 class="white-text">Infos pratiques</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Comment ça marche</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Confiance et sérénité</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Niveaux d'expérience</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Les avis</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Charte de bonne conduite</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Conseils prévention</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col m4 s12">
+            <h5 class="white-text">A propos</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Qui sommes-nous ?</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Presse</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Nous recrutons</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col m4 s12">
+            <h5 class="white-text">Mentions Légales</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Conditions générales</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Politique de Confidentialité</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Utilisation des cookies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2016 NextDoor
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- JQuery & Materialize JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  </html>
