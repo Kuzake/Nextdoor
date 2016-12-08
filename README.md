@@ -16,7 +16,7 @@
 
 - [X] Inscription (Sylvain)
 
-- [ ] Proposer un service
+- [ ] Proposer un service (Joris)
 
 - [ ] CSS - à faire en dernier une fois que le HTML est terminé
  AIzaSyBjmKoHM7bgL_OMiYYDW15NgsKrD8TBIOM 
