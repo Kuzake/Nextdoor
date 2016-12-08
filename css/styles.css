@@ -34,6 +34,10 @@
   }
 }
 
+.modal-content h4 {
+  color: #1A4A80;
+}
+
 /* Menu */
 nav .brand-logo {display: flex; align-items: center;}
 .brand-logo img {
