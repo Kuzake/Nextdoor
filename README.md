@@ -6,7 +6,7 @@
 
 - [x] Rechercher (Joris)
 
-- [ ] Profil Publique
+- [ ] Profil Publique (Rémi)
 
 - [x] Profil Privé (Joris)
 
