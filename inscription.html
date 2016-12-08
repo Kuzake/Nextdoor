@@ -1,215 +1,187 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Materialize Css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Materialize Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Nextdoor Css -->
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Nextdoor Css -->
+  <link rel="stylesheet" href="css/styles.css">
 
-    <title>Annonce - NextDoor</title>
+  <title>Annonce - NextDoor</title>
 </head>
 <body>
-<header>
+  <header>
     <nav class="blue">
-        <div class="nav-wrapper container">
-            <a href="#!" class="brand-logo"><img src="img/logo.png" alt="Logo" class="hide-on-small-only">
-                NextDoor</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html">Déposer une annonce</a></li>
-                <li><a href="inscription.html">S'inscrire</a></li>
-                <li><a href="index.html" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
-            </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html">Déposer une annonce</a></li>
-                <li><a href="inscription.html">S'inscrire</a></li>
-                <li><a href="index.html" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
-            </ul>
+      <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo"><img src="img/logo.png" alt="Logo" class="hide-on-small-only">
+          NextDoor</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html">Déposer une annonce</a></li>
+            <li><a href="inscription.html">S'inscrire</a></li>
+            <li><a href="index.html" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html">Déposer une annonce</a></li>
+            <li><a href="inscription.html">S'inscrire</a></li>
+            <li><a href="index.html" class="waves-effect waves-light btn blue-dark">Se connecter</a></li>
+          </ul>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<!-- Contenu -->
-<main>
-    <div class="container">
+    <!-- Contenu -->
+    <main>
+      <div class="container">
         <div class="row">
-            <div class="col m12 l12 ">
+          <div class="col m12 l12 ">
+            <div class="card">
+              <div class="card-content">
                 <div class="row">
-                    <div class="col s12 m12">
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title blue-text"><h4>Inscription</h4></span>
-                                <div class="row">
-                                    <div class="input-field col s3">
-                                    </div>
-                                    <div class="input-field col s6">
-                                        <input placeholder="Votre prénom" id="first_name" type="text" class="validate">
-                                        <label for="first_name">Prénom</label>
-                                    </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s3">
-                                        </div>
-                                    <div class="input-field col s6">
-                                        <input id="last_name" type="text" class="validate">
-                                        <label for="last_name">Nom</label>
-                                    </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s3">
-                                        </div>
-                                        <div class="input-field col s6">
-                                            <i class="material-icons prefix">email</i>
-                                            <input id="email" type="email" class="validate">
-                                            <label for="email">Email</label>
-                                        </div>
-                                    </div>
-                                        <div class="row">
-                                            <div class="input-field col s3">
-                                            </div>
-                                            <div class="input-field col s6">
-                                                <i class="material-icons prefix">phone</i>
-                                                <input id="icon_telephone" type="tel" class="validate">
-                                                <label for="icon_telephone">Telephone</label>
-                                            </div>
-                                        </div>
-                                    <div class="row">
-                                        <div class="input-field col s3">
-                                        </div>
-                                        <div class="input-field col s6">
-                                            <i class="material-icons prefix">lock_outline</i>
-                                            <input id="password" type="password" class="validate">
-                                            <label for="password">Mot de passe</label>
-                                        </div>
-                                        </div>
-                                    <div class="row">
-                                        <div class="input-field col s3">
-                                        </div>
-                                        <div class="input-field col s6">
-                                            <i class="material-icons prefix">lock_outline</i>
-                                            <input id="passwordConfirm" type="password" class="validate">
-                                            <label for="passwordConfirm">Validez votre mot de passe</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s3">
-                                        </div>
-                                        <div class="input-field col s6">
-                                            <i class="material-icons prefix">business</i>
-                                            <input id="adresse" type="password" class="validate">
-                                            <label for="adresse">Adresse</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s3">
-                                        </div>
-                                        <div class="input-field col s6">
-                                            <i class="material-icons prefix">location_on</i>
-                                            <input id="ville" type="password" class="validate">
-                                            <label for="ville">Ville</label>
-                                        </div>
-                                    </div>
-                                <div class="row">
-                                    <div class="input-field col s5">
-                                    </div>
-                                    <div class="input-field col s6">
-                                        <input type="checkbox" id="cgu" />
-                                        <label for="cgu">Accepter les CGU</label>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="input-field col s5">
-                                    </div>
-                                    <div class="input-field col s6">
-                                        <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
-                                            <i class="material-icons right">send</i>
-                                        </button>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-                            </div>
-                        </div>
+                  <div class=" col m6 offset-m3">
+                    <span class="card-title blue-text"><h4>Inscription</h4></span>
+                    <div class="row">
+                      <div class="input-field col s12 m6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Prénom</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Nom</label>
+                      </div>
                     </div>
+                    <div class="row">
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 m12">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Mot de passe</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 m12">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="passwordConfirm" type="password" class="validate">
+                        <label for="passwordConfirm">Validez votre mot de passe</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 m12">
+                        <i class="material-icons prefix">business</i>
+                        <input id="adresse" type="password" class="validate">
+                        <label for="adresse">Adresse</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 m12">
+                        <i class="material-icons prefix">location_on</i>
+                        <input id="ville" type="password" class="validate">
+                        <label for="ville">Ville</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 m12">
+                        <input type="checkbox" id="cgu" />
+                        <label for="cgu">J'accepte les <a href="">Conditions Générales d'Utilisation</a></label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col m12 s12 center">
+                        <button class="btn waves-effect waves-light blue" type="submit" name="action">Envoyer</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</main>
 
-<!-- Footer -->
-<footer class="page-footer blue">
-    <div class="container">
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer blue">
+      <div class="container">
         <div class="row">
-            <div class="col m4 s12">
-                <h5 class="white-text">Infos pratiques</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Comment ça marche</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Confiance et sérénité</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Niveaux d'expérience</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Les avis</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Charte de bonne conduite</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Conseils prévention</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="col m4 s12">
-                <h5 class="white-text">A propos</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Qui sommes-nous ?</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Presse</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Nous recrutons</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col m4 s12">
-                <h5 class="white-text">Mentions Légales</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Conditions générales</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Politique de Confidentialité</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Utilisation des cookies</a></li>
-                </ul>
-            </div>
+          <div class="col m4 s12">
+            <h5 class="white-text">Infos pratiques</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Comment ça marche</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Confiance et sérénité</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Niveaux d'expérience</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Les avis</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Charte de bonne conduite</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Conseils prévention</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col m4 s12">
+            <h5 class="white-text">A propos</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Qui sommes-nous ?</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Presse</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Nous recrutons</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col m4 s12">
+            <h5 class="white-text">Mentions Légales</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Conditions générales</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Politique de Confidentialité</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Utilisation des cookies</a></li>
+            </ul>
+          </div>
         </div>
-    </div>
-    <div class="footer-copyright">
+      </div>
+      <div class="footer-copyright">
         <div class="container">
-            © 2016 NextDoor
+          © 2016 NextDoor
         </div>
+      </div>
+    </footer>
+    <!-- Modal connexion -->
+    <div id="connexion" class="modal">
+      <div class="modal-content">
+        <h4>Connexion</h4>
+        <div class="input-field">
+          <input id="mail" type="email" class="validate">
+          <label for="mail">Adresse email</label>
+        </div>
+        <div class="input-field">
+          <input id="mdp" type="password" class="validate">
+          <label for="mdp">Mot de passe</label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat blue white-text">Connexion</a>
+      </div>
     </div>
-</footer>
-<!-- Modal connexion -->
-<div id="connexion" class="modal">
-  <div class="modal-content">
-    <h4>Connexion</h4>
-    <div class="input-field">
-      <input id="mail" type="email" class="validate">
-      <label for="mail">Adresse email</label>
-    </div>
-    <div class="input-field">
-      <input id="mdp" type="password" class="validate">
-      <label for="mdp">Mot de passe</label>
-    </div>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat blue white-text">Connexion</a>
-  </div>
-</div>
 
-<!-- JQuery & Materialize JS -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script src="js/custom.js"></script>
-</body>
-</html>
+    <!-- JQuery & Materialize JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  </html>

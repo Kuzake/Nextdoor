@@ -14,7 +14,7 @@
 
 - [ ] Administration (Joris)
 
-- [ ] Inscription
+- [X] Inscription (Sylvain)
 
 - [ ] Proposer un service
 
