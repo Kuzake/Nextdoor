@@ -47,20 +47,19 @@
 
       <div class="row">
         <div class="col s12 m8 offset-m2 l6 offset-l3">
-          <div class="card-panel transparent z-depth-0">
+          <div class="card-panel transparent z-depth-0" style='padding-bottom: 0px; margin-bottom: 0;'>
             <div class="row valign-wrapper">
               <div class="col s2">
                 <img src="img/profil.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
               </div>
-              <div class="col s10">
-                <h5>Jack</h5>-
-                <span>Expert</span>
+              <div class="col s10 profil-p">
+                <h5>Jack<small class="blue-grey-text text-lighten-2"> - Expert</small></h5>
                 <span class="black-text">
-                  <i class="material-icons">star</i>
-                  <i class="material-icons">star</i>
-                  <i class="material-icons">star</i>
-                  <i class="material-icons">star_half</i>
-                  <i class="material-icons">star_outline</i>
+                  <i class="material-icons yellow-text text-accent-4">star</i>
+                  <i class="material-icons yellow-text text-accent-4">star</i>
+                  <i class="material-icons yellow-text text-accent-4">star</i>
+                  <i class="material-icons yellow-text text-accent-4">star_half</i>
+                  <i class="material-icons yellow-text text-accent-4">star_outline</i>
                 </span>
               </div>
             </div>
@@ -220,25 +219,17 @@
                       <div class="col m10 offset-m1 s12">
                           <div class="row">
                               <form class="col s12">
-                                  <div class="row">
-                                      <div class="input-field col m6 s12">
-                                          <input id="first_name" type="text" class="validate">
-                                          <label for="first_name">Nom</label>
-                                      </div>
-                                      <div class="input-field col m6 s12">
-                                          <input id="last_name" type="text" class="validate">
-                                          <label for="last_name">Prénom</label>
-                                      </div>
-                                  </div>
+
                                   <div class="row">
                                       <div class="input-field col m12 s12">
-                                          <i class="material-icons prefix">email</i>
-                                          <input id="email" type="email" class="validate" required>
-                                          <label for="email">Email</label>
+                                          <i class="material-icons prefix">label</i>
+                                          <input id="object" type="email" class="validate" required>
+                                          <label for="object">Objet</label>
                                       </div>
                                   </div>
                                   <div class="row">
                                       <div class="input-field col s12">
+                                        <i class="material-icons prefix">textsms</i>
                                         <textarea id="message" class="materialize-textarea"></textarea>
                                         <label for="message">Message</label>
                                       </div>
@@ -246,7 +237,7 @@
 
                                   <div class="row">
                                       <div class="col m12">
-                                       <p class="right-align"><button class="btn btn-large waves-effect waves-light blue" type="button" name="action">Envoyer votre message</button></p>
+                                       <p class="right-align"><button class="btn waves-effect waves-light blue" type="button" name="action">Envoyer votre message</button></p>
                                       </div>
                                   </div>
                               </form>
